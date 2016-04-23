@@ -22,7 +22,7 @@ h6 {
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 .lead {
@@ -31,13 +31,28 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
+    padding-top: 20px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 20px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/books_stock.png) no-repeat center center;
     background-size: cover;
 }
+
+.intro-header h5 {
+  color: white;
+  margin: 0% 5% 0% 5%;
+}
+
+.easy-read {
+  background-color:black;
+  z-index:0;
+  opacity:0.6;
+  margin: 15% 25% 10% 25%;
+  border-radius: 5%;
+}
+
+
 
 .intro-message {
     position: relative;
@@ -93,7 +108,7 @@ h6 {
 }
 
 .content-section-a {
-    padding: 50px 0;
+    padding: 50px 20px;
     background-color: #f8f8f8;
 }
 
